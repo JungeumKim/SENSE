@@ -1,0 +1,5 @@
+python == 3.7
+torch >= 1.4.0
+torchvision
+advertorch == 0.2.2
+foolbox == 2.3.0

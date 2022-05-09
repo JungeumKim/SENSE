@@ -1,0 +1,33 @@
+{
+  "data_root": "/home/kim2712/Desktop/data",
+
+  "alg": "sense-at",
+  "mode": "train",  
+  "capa": -1,
+    
+  "train_sample_size": 50000,
+  "test_sample_size": 200,
+  "eval_sample_size": 10000,  
+  "lr": 0.01,
+  "batch_size": 128,
+  "weight_decay": 0.0002,
+  "nepochs": 150,
+  "restore": false,
+  "eval_restore": false,
+  "save_path": "./results",
+  "eval_batch_size":100,    
+  "attack_steps": 10,
+  "attack_eps": 8,
+  "attack_stepsize": 1.5,
+  "lossCut": 0.5,
+    
+  "warmup": 5,
+  "demo": false,
+  "nat_weight": 0.0,
+  "fab_nb":1,
+  "eval_group1": false,
+  "eval_group2": true,
+  "eval_group3": false,
+  "eval_group4": false,
+  "eval_group5": false
+}
